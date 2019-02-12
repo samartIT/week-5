@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Samart/_Scenes/_Scene8_FPS.unity
+- path: Assets/_Samart/_Scenes/_Scene9_FPS.unity
   isLoaded: 1
   isActive: 1
