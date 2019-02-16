@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_59070052/_Scenes/_59070052_Scene_2_Terrain.unity
+- path: Assets/_59070052/_Scenes/_59070052_Scene_3_TerrainSclupting.unity
   isLoaded: 1
   isActive: 1
