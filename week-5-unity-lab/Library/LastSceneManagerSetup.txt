@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_59070002/_Scenes/_59070002_Scene_9_FPS.unity
   isLoaded: 1
   isActive: 1
