@@ -20,7 +20,11 @@ public class MouseLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Rigidbody body = GetComponent<Rigidbody>();
+        if (body != null)
+        {
+            body.freezeRotation = true;
+        }
     }
 
     // Update is called once per frame
