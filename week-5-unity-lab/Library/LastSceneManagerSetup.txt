@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_59070036/_Scenes/_59070036_Scene_4_TerrainTexturing.unity
+- path: Assets/_59070036/_Scenes/_59070036_Scene_7_Multicam.unity
   isLoaded: 1
   isActive: 1
