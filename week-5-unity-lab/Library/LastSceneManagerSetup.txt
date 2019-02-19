@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_59070048/_Scenes/_59070048_Scene_5_TerrainFPS.unity
   isLoaded: 1
   isActive: 1
