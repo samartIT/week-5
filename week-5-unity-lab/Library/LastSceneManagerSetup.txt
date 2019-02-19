@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_59070152/_Scenes/_59070152_Scene_8_MulticamScript.unity
   isLoaded: 1
   isActive: 1
