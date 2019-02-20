@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter))]
-public class TerrainGenerator : MonoBehaviour
+public class TerrainGenerator1 : MonoBehaviour
 {
     Mesh terrain;
     Vector3[] vertices;
