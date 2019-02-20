@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &106874557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 803702468}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &269946561
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 269946562}
+  - component: {fileID: 269946563}
   m_Layer: 0
   m_Name: Game Maneager
   m_TagString: Untagged
@@ -142,6 +149,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &269946563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269946561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341988cd703231945ad405906c48540a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 1952605482}
+  player: {fileID: 106874557}
 --- !u!1 &375471485
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,6 +337,7 @@ GameObject:
   - component: {fileID: 618455065}
   - component: {fileID: 618455064}
   - component: {fileID: 618455063}
+  - component: {fileID: 618455067}
   m_Layer: 0
   m_Name: WaterHazardDetective
   m_TagString: Untagged
@@ -396,6 +418,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &618455067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618455062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e65046bc1e7464884602a813afe0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 269946563}
 --- !u!1 &669011702
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +568,7 @@ GameObject:
   - component: {fileID: 1439660642}
   - component: {fileID: 1439660641}
   - component: {fileID: 1439660640}
+  - component: {fileID: 1439660643}
   m_Layer: 0
   m_Name: Finish_zone
   m_TagString: Untagged
@@ -606,6 +642,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1439660643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439660639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a79a686cc7a1804991e49b3d7764ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 269946563}
 --- !u!1001 &1949698006
 PrefabInstance:
   m_ObjectHideFlags: 0
