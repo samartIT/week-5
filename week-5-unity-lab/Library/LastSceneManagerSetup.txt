@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_59070079/_Scernes/_59070079_screnes_1_mat.unity
   isLoaded: 1
   isActive: 1
