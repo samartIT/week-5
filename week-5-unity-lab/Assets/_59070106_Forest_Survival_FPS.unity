@@ -212,7 +212,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1149748191}
-  - component: {fileID: 1149748190}
   - component: {fileID: 1149748189}
   m_Layer: 0
   m_Name: Game Manager
@@ -229,20 +228,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149748188}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b101dd5eb268c47a362b85935ac4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 481069369}
-  player: {fileID: 1205358233}
---- !u!114 &1149748190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149748188}
-  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21b101dd5eb268c47a362b85935ac4b2, type: 3}
   m_Name: 
@@ -424,8 +409,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348967678}
-  m_LocalRotation: {x: 0.041900333, y: 0.7942981, z: 0.055140767, w: -0.6035681}
-  m_LocalPosition: {x: 254.20193, y: -5.598671, z: 165.29822}
+  m_LocalRotation: {x: 0.15651345, y: 0.5452763, z: 0.104477525, w: -0.8168609}
+  m_LocalPosition: {x: 139.88846, y: 13.958038, z: 83.43547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -597,7 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92768dd02d61c854492d0b951f601133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1149748190}
+  gameManager: {fileID: 1149748189}
 --- !u!64 &1828476793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -702,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7000c7ff81beefc4db0772bfb02bc637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 1149748190}
+  gameManager: {fileID: 1149748189}
 --- !u!136 &2078928495
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -728,7 +713,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 7
   m_Range: 35
   m_SpotAngle: 30
   m_CookieSize: 10
