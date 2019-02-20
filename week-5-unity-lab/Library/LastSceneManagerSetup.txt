@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_59070144/_Scene/_59070144_Scene_4_TerrainTexturng.unity
   isLoaded: 1
   isActive: 1
