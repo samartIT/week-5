@@ -1,2 +1,2 @@
 # week-5
-week-5 lab
+for week-5 lab and week-6 lab
