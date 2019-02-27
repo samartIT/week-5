@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/_Scenes/_59070155_Forest_Survival_FPS.unity
   isLoaded: 1
   isActive: 1
